@@ -1,4 +1,4 @@
-module github.com/terraform-linters/tflint-ruleset-template
+module github.com/rezNetDevOps/tflint-ruleset-alicloud
 
 go 1.27.3
 
