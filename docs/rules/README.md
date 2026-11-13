@@ -13,4 +13,4 @@ These rules enforce best practices.
 
 |Rule|Severity|Enabled by default|
 | --- | --- | --- |
-|[alicloud_provider_legacy_source](alicloud_provider_legacy_source.md)|WARNING|yes|
+|[alicloud_provider_legacy_source](alicloud_provider_legacy_source.md)|NOTICE|no|
