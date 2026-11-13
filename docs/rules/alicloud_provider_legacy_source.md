@@ -2,6 +2,14 @@
 
 Disallow `hashicorp/alicloud` as the provider source.
 
+This rule is disabled by default. Enable it in `.tflint.hcl`:
+
+```hcl
+rule "alicloud_provider_legacy_source" {
+  enabled = true
+}
+```
+
 ## Example
 
 ```hcl
@@ -21,7 +29,7 @@ terraform {
 $ tflint
 1 issue(s) found:
 
-Warning: "hashicorp/alicloud" is not the canonical provider source, use "aliyun/alicloud" (alicloud_provider_legacy_source)
+Notice: "hashicorp/alicloud" is not the canonical provider source, use "aliyun/alicloud" (alicloud_provider_legacy_source)
 
   on main.tf line 6:
    6:       source  = "hashicorp/alicloud"
