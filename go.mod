@@ -2,7 +2,11 @@ module github.com/rezNetDevOps/tflint-ruleset-alicloud
 
 go 1.27.3
 
-require github.com/terraform-linters/tflint-plugin-sdk v0.25.0
+require (
+	github.com/hashicorp/hcl/v2 v2.25.0
+	github.com/terraform-linters/tflint-plugin-sdk v0.25.0
+	github.com/zclconf/go-cty v1.19.0
+)
 
 require (
 	github.com/agext/levenshtein v1.2.1 // indirect
@@ -14,7 +18,6 @@ require (
 	github.com/hashicorp/go-hclog v1.6.3 // indirect
 	github.com/hashicorp/go-plugin v1.8.0 // indirect
 	github.com/hashicorp/go-version v1.9.0 // indirect
-	github.com/hashicorp/hcl/v2 v2.25.0 // indirect
 	github.com/hashicorp/yamux v0.1.2 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
@@ -22,7 +25,6 @@ require (
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	github.com/zclconf/go-cty v1.19.0 // indirect
 	golang.org/x/mod v0.38.0 // indirect
 	golang.org/x/net v0.58.0 // indirect
 	golang.org/x/sync v0.22.0 // indirect
