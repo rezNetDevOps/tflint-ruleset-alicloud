@@ -28,12 +28,12 @@ func (r *AlicloudProviderLegacySourceRule) Name() string {
 
 // Enabled returns whether the rule is enabled by default.
 func (r *AlicloudProviderLegacySourceRule) Enabled() bool {
-	return true
+	return false
 }
 
 // Severity returns the rule severity.
 func (r *AlicloudProviderLegacySourceRule) Severity() tflint.Severity {
-	return tflint.WARNING
+	return tflint.NOTICE
 }
 
 // Link returns the rule reference link.
