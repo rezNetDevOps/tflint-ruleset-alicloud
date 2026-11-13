@@ -44,7 +44,7 @@ The goal of this ruleset is to report such errors before they reach `apply`.
 
 ## Rules
 
-No rules are released yet. The full list, with severity and default state for each rule, will be kept in `docs/rules/README.md`.
+No rules are released yet. See [docs/rules/README.md](docs/rules/README.md) for the rules on `main`, with the severity and default state of each.
 
 ## Building the plugin
 
