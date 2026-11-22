@@ -7,4 +7,5 @@ var Rules = []tflint.Rule{
 	NewAlicloudInstanceInvalidInstanceTypeFormatRule(),
 	NewAlicloudInstancePrepaidMissingPeriodRule(),
 	NewAlicloudProviderLegacySourceRule(),
+	NewAlicloudVswitchInvalidZoneIDFormatRule(),
 }
